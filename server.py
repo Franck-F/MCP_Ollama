@@ -92,13 +92,13 @@ def read_data(query: str = "SELECT * FROM people") -> list:
 
 
 if __name__ == "__main__":
-    # Start the server
+    # Demarrer le serveur 
     print("🚀Starting server... ")
 
-    # Debug Mode
+    # Mode Debug 
     #  uv run mcp dev server.py
 
-    # Production Mode
+    #  Mode  Production 
     # uv run server.py --server_type=sse
 
     parser = argparse.ArgumentParser()
